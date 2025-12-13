@@ -159,16 +159,14 @@
         /* Styling for the bottom bar container */
         .footer-bottom {
             border-top: 1px solid rgba(255, 255, 255, 0.1);
-            /* Subtle separator line */
-            padding-top: 20px;
-            margin-top: 20px;
+            padding-top: 25px;
+            margin: 10px 70px;
             display: flex;
             justify-content: space-between;
-            /* Pushes copyright to left, dev credit to right */
             align-items: center;
             flex-wrap: wrap;
-            /* responsive wrapping */
-            gap: 10px;
+            gap: 15px;
+            font-size: 0.9rem;
         }
 
         /* Styling for the Developer Section */
@@ -176,13 +174,14 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px 15px;
+            border-radius: 30px;
         }
 
         .dev-name {
             font-weight: 600;
-            color: #fff;
-            /* Highlights your name */
+            color: #ffdb6d;
         }
 
         /* LinkedIn Icon Styling */
@@ -206,13 +205,14 @@
             }
         }
 
-        .logo {
-            font-size: 22px;
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            text-decoration: none;
+       .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
             color: var(--primary-blue);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 4px 60px;
         }
 
         .nav-contact {
@@ -538,9 +538,8 @@
             </div>
 
             <div class="developer-section">
-                <p>Designed and Developed by <span class="dev-name">Pushp Ranjan</span></p>
-                <a href="https://www.linkedin.com/in/pushp-ranjan-a3b500264/" target="_blank" rel="noopener noreferrer"
-                    class="social-icon">
+                <p style="margin:0; font-size:0.85rem;">Designed by <span class="dev-name">Pushp Ranjan</span></p>
+                <a href="https://www.linkedin.com/in/pushp-ranjan-a3b500264/" target="_blank" class="social-icon">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>
