@@ -23,7 +23,7 @@ const Home = () => {
 
           <div className="bg-white p-3 rounded-xl shadow-xl">
             <img
-              src="/image.png"
+              src="./image.png"
               alt="AMICO Preview"
               className="rounded-lg w-full"
             />
