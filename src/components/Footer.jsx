@@ -1,3 +1,5 @@
+import { FaLinkedin } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <footer className="bg-blue-900 text-white pt-16">
@@ -10,9 +12,15 @@ const Footer = () => {
         </div>
 
         <div className="text-sm space-y-2">
-          <p><i className="fas fa-map-marker-alt mr-2"></i> India</p>
-          <p><i className="fas fa-phone mr-2"></i> +91 XXXXXXXXXX</p>
-          <p><i className="fas fa-envelope mr-2"></i> amico.pvt.ltd@gmail.com</p>
+          <p>
+            <i className="fas fa-map-marker-alt mr-2"></i> India
+          </p>
+          <p>
+            <i className="fas fa-phone mr-2"></i> +91 XXXXXXXXXX
+          </p>
+          <p>
+            <i className="fas fa-envelope mr-2"></i> amico.pvt.ltd@gmail.com
+          </p>
         </div>
       </div>
 
@@ -21,15 +29,17 @@ const Footer = () => {
 
         <div className="flex items-center gap-3 mt-3 md:mt-0">
           <span>
-            Designed by <span className="text-yellow-300 font-semibold">Pushp Ranjan</span>
+            Developed by{" "}
+            <span className="text-yellow-300 font-semibold">Pushp Ranjan</span>
           </span>
+
           <a
             href="https://www.linkedin.com/in/pushp-ranjan-a3b500264/"
             target="_blank"
             rel="noreferrer"
-            className="text-xl hover:text-blue-400"
+            className="text-xl hover:text-white"
           >
-            <i className="fab fa-linkedin"></i>
+            <FaLinkedin />
           </a>
         </div>
       </div>
